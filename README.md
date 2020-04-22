@@ -71,3 +71,5 @@ client.query("INSERT INTO testtable (info) VALUES ('new');", (err, res) => {
 })
 ```
 
+Please note ```client.end()``` will close the connection with the database. Only use this once your are finished with the database on a certain page of code.
+
