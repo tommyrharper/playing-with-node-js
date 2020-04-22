@@ -2,7 +2,7 @@
 
 We created a very simple application to serve as an example of how to use postgresql with PG and node.js, explained below.
 
-First you must install pg/
+First you must install pg in the directory of the project.
 ```
 npm install pg
 ```
